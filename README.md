@@ -5,7 +5,8 @@ This project tracks speedtest.net results via [speed-test](https://github.com/si
 
 ##### Requirements
 * Docker w/ docker-compose installed
-* The docker-compose.yml file defines a local repository, I recommend you run a local one with ```docker run -d -p 5000:5000 --restart=always --name registry registry:2
+* The docker-compose.yml file defines a local repository, I recommend you run a local one with
+ `docker run -d -p 5000:5000 --restart=always --name registry registry:2`
 ```
 * Review the files (Would you really run things random strangers post online without doing this?)
 
