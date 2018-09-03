@@ -1,0 +1,4 @@
+volumes/influxdb/data/
+volumes/influxdb/meta/
+volumes/influxdb/wal/
+
