@@ -1,5 +1,7 @@
 ## Docker-composed TIG Stack w/ speed-test
 
+This is a fork of [mlabouardy/telegraf-influxdb-grafana](https://github.com/mlabouardy/telegraf-influxdb-grafana)
+
 ##### Description
 This project tracks speedtest.net results via [speed-test](https://github.com/sindresorhus/speed-test) json, piped to telegraf and stored and influxdb which is then presented via grafana.
 
