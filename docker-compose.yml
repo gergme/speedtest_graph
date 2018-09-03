@@ -2,7 +2,7 @@ version: "2"
 services:
   influxdb:
     container_name: influxdb
-    image: localhost:5000/influxdb:latest
+    image: influxdb:latest
     ports:
       - "8083:8083"
       - "8086:8086"
@@ -12,7 +12,7 @@ services:
 
   grafana:
     container_name: grafana
-    image: localhost:5000/grafana:5.1.2
+    image: grafana:5.1.2
     ports:
       - "3000:3000"
     links:
