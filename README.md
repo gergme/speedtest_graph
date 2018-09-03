@@ -3,7 +3,7 @@
 This is a fork of [mlabouardy/telegraf-influxdb-grafana](https://github.com/mlabouardy/telegraf-influxdb-grafana)
 
 ##### Description
-This project tracks speedtest.net results via [speed-test](https://github.com/sindresorhus/speed-test) json, piped to telegraf and stored and influxdb which is then presented via grafana.
+This project tracks speedtest.net results via [speed-test](https://github.com/sindresorhus/speed-test) json output, piped to telegraf and stored and influxdb which is then presented via grafana.
 
 ##### Requirements
 * Docker w/ docker-compose installed
