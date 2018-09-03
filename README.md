@@ -20,8 +20,8 @@ docker-compose up -d --build
 ```
 ##### Dashboard Ports
 
-InfluxDB Dashboard - TCP/8083
-Grafana Dashboard - TCP/3000
+* InfluxDB Dashboard - TCP/8083
+* Grafana Dashboard - TCP/3000
 
 ##### Create InfluxDB database
 From the InfluxDB dashboard you will need to create a database named 'internet'
