@@ -19,7 +19,9 @@ mkdir -p volumes/influxdb
 docker-compose up -d --build
 ```
 ##### Dashboard Ports
+
 InfluxDB Dashboard - TCP/8083
+
 Grafana Dashboard - TCP/3000
 
 ##### Create InfluxDB database
