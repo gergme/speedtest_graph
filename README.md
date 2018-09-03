@@ -18,9 +18,9 @@ cd speedtest_graph
 mkdir -p volumes/influxdb
 docker-compose up -d --build
 ```
-##### URLs
-[InfluxDB Dashboard](http://influxdb:8083)
-[Grafana Dashboard](http://grafana:3000)
+##### Dashboard Ports
+InfluxDB Dashboard - TCP/8083
+Grafana Dashboard - TCP/3000
 
 ##### Create InfluxDB database
 From the InfluxDB dashboard you will need to create a database named 'internet'
