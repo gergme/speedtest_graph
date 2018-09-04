@@ -64,7 +64,7 @@
         "#299c46"
       ],
       "datasource": "${DS_INTERNET}",
-      "format": "none",
+      "format": "Mbits",
       "gauge": {
         "maxValue": 100,
         "minValue": 0,
@@ -108,7 +108,7 @@
       ],
       "sparkline": {
         "fillColor": "rgba(31, 118, 189, 0.18)",
-        "full": false,
+        "full": true,
         "lineColor": "rgb(31, 120, 193)",
         "show": true
       },
@@ -147,14 +147,15 @@
                 "type": "mean"
               }
             ]
-          ]
+          ],
+          "tags": []
         }
       ],
       "thresholds": "40,70",
       "timeFrom": "4h",
       "title": "4-hour Average Download",
       "type": "singlestat",
-      "valueFontSize": "80%",
+      "valueFontSize": "50%",
       "valueMaps": [
         {
           "op": "=",
@@ -234,7 +235,8 @@
                 "type": "sum"
               }
             ]
-          ]
+          ],
+          "tags": []
         },
         {
           "alias": "U/L (Mbps)",
@@ -270,7 +272,8 @@
                 "type": "sum"
               }
             ]
-          ]
+          ],
+          "tags": []
         },
         {
           "alias": "Ping (ms)",
@@ -306,7 +309,8 @@
                 "type": "sum"
               }
             ]
-          ]
+          ],
+          "tags": []
         }
       ],
       "thresholds": [],
@@ -350,6 +354,7 @@
       }
     }
   ],
+  "refresh": false,
   "schemaVersion": 16,
   "style": "dark",
   "tags": [],
@@ -388,5 +393,5 @@
   "timezone": "browser",
   "title": "Internet",
   "uid": "Z5Iupahiz",
-  "version": 2
+  "version": 3
 }
