@@ -12,7 +12,7 @@ services:
 
   grafana:
     container_name: grafana
-    image: grafana:5.1.2
+    image: grafana/grafana:latest
     ports:
       - "3000:3000"
     links:
