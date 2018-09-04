@@ -10,7 +10,6 @@ This project tracks speedtest.net results via [speed-test](https://github.com/si
 
 ##### Requirements
 * Docker w/ docker-compose installed
-* Review the files and modify as you see fit (Would you really run things random strangers post online without doing this?)
 
 ##### Howto
 ```
