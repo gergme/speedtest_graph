@@ -3,7 +3,7 @@
 This is a fork of [mlabouardy/telegraf-influxdb-grafana](https://github.com/mlabouardy/telegraf-influxdb-grafana)
 
 ##### Screenshot
-![screenshot](http://bsd.gerg.me/speedtest-graph.png "Two example graphs you can make")
+![screenshot](http://bsd.gerg.me/speedtest_graph.png "Two example graphs you can make")
 
 ##### Description
 This project tracks speedtest.net results via [speed-test](https://github.com/sindresorhus/speed-test) json output, piped to telegraf and stored in influxdb which is then presented via grafana.
