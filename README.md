@@ -36,5 +36,8 @@ It's recommended that you setup a Retention Policy on your 'internet' database t
 ##### Create Grafana Dashboard
 From Grafana you will need to connect to your datasource (InfluxDB), you will be guided through setting up grafana after your first login, if you have trouble connecting to your datasource, try using `http://influxdb:8086` (or if you changed the containers name, `http://name:8086`) as your host.
 
+##### Import Dashboard JSON
+I've included an export of my dashboard in JSON format, you can [RTFM](http://docs.grafana.org/reference/export_import/#importing-a-dashboard) on how to accomplish this.
+
 ##### Why?
 Really just to have a reference to how often I get what I pay for with my ISP.
