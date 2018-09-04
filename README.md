@@ -21,7 +21,7 @@ docker-compose up -d --build
 ##### Dashboard Ports
 
 * InfluxDB Dashboard - TCP/8083
-* Grafana Dashboard - TCP/3000
+* Grafana Dashboard - TCP/3000 (default: admin/admin)
 
 ##### Create InfluxDB database
 From the InfluxDB dashboard you will need to create a database named 'internet'
@@ -30,7 +30,6 @@ From the InfluxDB dashboard you will need to create a database named 'internet'
 ##### Create InfluxDB Retention Policy
 It's recommended that you setup a Retention Policy on your 'internet' database to keep it's size in check.  Do this sooner rather than later, as creating a retention policy may erase existing data.
 `CREATE RETENTION POLICY "default" ON "internet" DURATION 120d REPLICATION 1 DEFAULT`
-
 
 ##### Create Grafana Dashboard
 From Grafana you will need to connect to your datasource (InfluxDB), you will be guided through setting up grafana after your first login, if you have trouble connecting to your datasource, try using `http://influxdb:8086` (or if you changed the containers name, `http://name:8086`) as your host.
